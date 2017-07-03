@@ -1,0 +1,10 @@
+#content{
+  background: #fff;
+  width: 100%;
+  min-height: 91vh;
+  margin-left:
+  230px;
+}
+@media (max-width: 767px){
+  #content{margin-left:0px;}
+}

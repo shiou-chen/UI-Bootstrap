@@ -10,13 +10,15 @@ import { AuthGuard } from './_comm/auth.guard';
 import { Comm } from './_comm/comm';
 import { UserService } from './_comm/user.service';
 import { SummaryService } from './_comm/summary.service';
+import { ContentComponent } from './content/content.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     MasterComponent,
-    HomeComponent
+    HomeComponent,
+    ContentComponent
   ],
   imports: [
     BrowserModule,
